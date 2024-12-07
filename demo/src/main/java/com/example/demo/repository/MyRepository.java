@@ -1,7 +1,0 @@
-package com.example.demo.repository;
-
-import com.example.demo.model.MyDocument;
-import org.springframework.data.mongodb.repository.MongoRepository;
-
-public interface MyRepository extends MongoRepository<MyDocument, String> {
-}
